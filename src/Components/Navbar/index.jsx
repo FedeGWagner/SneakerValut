@@ -1,13 +1,14 @@
 import Cartwidget from "../Cartwidget";
 import Logo from "../../assets/img/logo.png";
+import {Link} from "react-router-dom";
 
 function Navbar() {
     return (
-        <div className="navbar bg-primary text-primary-content">
+        <div className="navbar bg-neutral text-primary-content">
             <div className="flex-1">
                 <img src={Logo} alt="Logo" />
-                <a className="btn btn-ghost normal-case text-xl">SneakerValut</a>
-                <a className="btn btn-ghost normal-case text-m">Categoria 1</a>
+                <Link className="btn btn-ghost normal-case text-xl" to="/">SneakerValut</Link>
+                <Link className="btn btn-ghost normal-case text-m" to="/Prueba">Categoria 1</Link>
                 <a className="btn btn-ghost normal-case text-m">Categoria 2</a>
                 <a className="btn btn-ghost normal-case text-m">Categoria 3</a>
                 <a className="btn btn-ghost normal-case text-m">Categoria 4</a>
