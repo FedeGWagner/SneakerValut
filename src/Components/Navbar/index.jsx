@@ -8,10 +8,10 @@ function Navbar() {
             <div className="flex-1">
                 <img src={Logo} alt="Logo" />
                 <Link className="btn btn-ghost normal-case text-xl" to="/">SneakerValut</Link>
-                <Link className="btn btn-ghost normal-case text-m" to="/Prueba">Categoria 1</Link>
-                <a className="btn btn-ghost normal-case text-m">Categoria 2</a>
-                <a className="btn btn-ghost normal-case text-m">Categoria 3</a>
-                <a className="btn btn-ghost normal-case text-m">Categoria 4</a>
+                <Link className="btn btn-ghost normal-case text-m" to="/Prueba">Air Jordan</Link>
+                <a className="btn btn-ghost normal-case text-m">Nike SW</a>
+                <a className="btn btn-ghost normal-case text-m">Yeezy</a>
+                <a className="btn btn-ghost normal-case text-m">Adidas</a>
             </div>
             <div className="flex-none">
                 <div className="dropdown dropdown-end">
